@@ -1,1 +1,13 @@
+Sprite3D
+MeshInstance3D
+MultiMeshInstance3D
+Camera3D
+SpringArm3D
+Node3D
+XRCamera3D
+CollisionShape3D
+CharacterBody3D
+CSGBox3D
+DirectionalLight3D
+WorldEnvironment
 GridMap

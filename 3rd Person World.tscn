@@ -1,0 +1,64 @@
+[gd_scene load_steps=11 format=3 uid="uid://bnsuvkau4ngyy"]
+
+[ext_resource type="PackedScene" uid="uid://c3nimjo3dgx25" path="res://Characters/Characters/gltf/Barbarian.glb" id="2_5jt7h"]
+[ext_resource type="Script" path="res://Player.gd" id="2_wbanw"]
+[ext_resource type="Script" path="res://Follow Camera.gd" id="3_x6has"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_pbblo"]
+
+[sub_resource type="Sky" id="Sky_wt84e"]
+sky_material = SubResource("ProceduralSkyMaterial_pbblo")
+
+[sub_resource type="Environment" id="Environment_3htvr"]
+background_mode = 2
+sky = SubResource("Sky_wt84e")
+tonemap_mode = 3
+
+[sub_resource type="CameraAttributesPractical" id="CameraAttributesPractical_2wak7"]
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_dxmkj"]
+size = Vector2(100, 100)
+center_offset = Vector3(0, -2, 0)
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_pjw7v"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_h81ba"]
+
+[node name="World" type="Node3D"]
+
+[node name="Map" type="Node3D" parent="."]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="Map"]
+environment = SubResource("Environment_3htvr")
+camera_attributes = SubResource("CameraAttributesPractical_2wak7")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="Map"]
+transform = Transform3D(1, 0, 0, 0, 0.6396, 0.768708, 0, -0.768708, 0.6396, 0, 0, -2.43274)
+shadow_enabled = true
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Map"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.347343, 1.9782, 5.71905)
+mesh = SubResource("PlaneMesh_dxmkj")
+
+[node name="Player" type="CharacterBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+script = ExtResource("2_wbanw")
+
+[node name="Sprite3D" type="Sprite3D" parent="Player"]
+
+[node name="Barbarian" parent="Player/Sprite3D" instance=ExtResource("2_5jt7h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.889571, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Player"]
+shape = SubResource("CapsuleShape3D_pjw7v")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Player"]
+visible = false
+mesh = SubResource("CapsuleMesh_h81ba")
+
+[node name="SpringArm3D" type="SpringArm3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.703295, 0.710898, 0, -0.710898, 0.703295, 0, 12.4676, 10.9925)
+script = ExtResource("3_x6has")
+
+[node name="Camera3D" type="Camera3D" parent="SpringArm3D"]
+current = true
