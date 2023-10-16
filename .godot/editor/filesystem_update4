@@ -1,1 +1,5 @@
-res://environment.tscn
+res://3rd Person World.tscn
+res://Scenes/3rd Person World.tscn
+res://Scripts/Player.gd
+res://Scenes/Player.gd
+res://Scenes/environment.tscn
