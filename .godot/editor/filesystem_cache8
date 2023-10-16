@@ -1,13 +1,8 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1697471252
-3rd Person World.tscn::PackedScene::3337286818269412504::1697471252::0::1::::<><>::res://Player.gd<>res://Follow Camera.gd
-environment.tscn::PackedScene::5689466571362978777::1697464192::0::1::::<><>::uid://csdspme2cwqkt::::res://Floor/CeramicPlainWhite001_REFL_4K.jpg<>res://Player.gd
-Follow Camera.gd::GDScript::-1::1697465159::0::1::::<>SpringArm3D<>::
-icon.svg::CompressedTexture2D::8985431571017722049::1697453328::1697453343::1::::<><>::
-Player.gd::GDScript::-1::1697466163::0::1::::<>CharacterBody3D<>::
+::res://::1697475631
 ::res://Characters/::1697471336
 ::res://Characters/Assets/::1697471337
-::res://Characters/Assets/fbx/::1697471337
+::res://Characters/Assets/fbx/::1697472298
 arrow-1adf094bc1aa6964fc6928fc657f4dfd_rogue_texture.png::CompressedTexture2D::1514291120145938049::1697469568::1697469576::1::::<><>::
 arrow.fbx::PackedScene::5498786061256025357::1689272106::1697469569::1::::<><>::
 arrow_bundle-33d44b48e2900f236b7f0b5b23b6d4e3_rogue_texture.png::CompressedTexture2D::4355641302647271887::1697469568::1697469576::1::::<><>::
@@ -197,3 +192,8 @@ OakTreeLeaf.png::CompressedTexture2D::1649664876441720427::1697453909::169745391
 OakTreeTrunk.png::CompressedTexture2D::1528653795485645403::1697453909::1697453910::1::::<><>::
 SpruceTreeLeaf.png::CompressedTexture2D::5335121033370894240::1697453909::1697453910::1::::<><>::
 SpruceTreeTrunk.png::CompressedTexture2D::4872105571874708351::1697453909::1697453910::1::::<><>::
+::res://Scenes/::1697475856
+environment.tscn::PackedScene::5689466571362978777::1697475757::0::1::::<><>::uid://csdspme2cwqkt::::res://Floor/CeramicPlainWhite001_REFL_4K.jpg<>res://Scripts/Player.gd
+::res://Scripts/::1697475753
+Follow Camera.gd::GDScript::-1::1697465159::0::1::::<>SpringArm3D<>::
+Player.gd::GDScript::-1::1697475753::0::1::::<>CharacterBody3D<>::
