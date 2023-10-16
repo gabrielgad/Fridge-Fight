@@ -1,5 +1,0 @@
-[gd_scene format=3 uid="uid://cnrqot8uxjkjw"]
-
-[node name="MasterGame" type="Node2D"]
-
-[node name="Window" type="Window" parent="."]
