@@ -1,8 +1,9 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1697475631
+::res://::1697551168
+Player.gd::GDScript::-1::1697550110::0::1::::<>CharacterBody3D<>::
 ::res://Characters/::1697471336
 ::res://Characters/Assets/::1697471337
-::res://Characters/Assets/fbx/::1697472298
+::res://Characters/Assets/fbx/::1697548373
 arrow-1adf094bc1aa6964fc6928fc657f4dfd_rogue_texture.png::CompressedTexture2D::1514291120145938049::1697469568::1697469576::1::::<><>::
 arrow.fbx::PackedScene::5498786061256025357::1689272106::1697469569::1::::<><>::
 arrow_bundle-33d44b48e2900f236b7f0b5b23b6d4e3_rogue_texture.png::CompressedTexture2D::4355641302647271887::1697469568::1697469576::1::::<><>::
@@ -11,7 +12,7 @@ axe_1handed-cc6b883cfbcebe30a220c7ecec5b9f45_barbarian_texture.png::CompressedTe
 axe_1handed.fbx::PackedScene::8982151594486909915::1689272106::1697469567::1::::<><>::
 axe_2handed-32996afc5396c6df6dd8362df172cea3_barbarian_texture.png::CompressedTexture2D::8230606701873951734::1697469566::1697469576::1::::<><>::
 axe_2handed.fbx::PackedScene::2104663533922001489::1689272106::1697469567::1::::<><>::
-barbarian_texture.png::CompressedTexture2D::6797230777783678690::1689255004::1697469466::1::::<><>::
+barbarian_texture.png::CompressedTexture2D::6797230777783678690::1689255004::1697548373::1::::<><>::
 crossbow_1handed-0cc410efd8014e8c2877b54be7503f9b_rogue_texture.png::CompressedTexture2D::6753144630101640646::1697469566::1697469576::1::::<><>::
 crossbow_1handed.fbx::PackedScene::1898238005474794247::1689272106::1697469566::1::::<><>::
 crossbow_2handed-ec7ed5e7c2adb726cbd20ca3eca8b29e_rogue_texture.png::CompressedTexture2D::761051761023564324::1697469565::1697469576::1::::<><>::
@@ -109,10 +110,10 @@ Rogue.fbx::PackedScene::6755948776743919199::1692622859::1697469535::1::::<><>::
 RogueHooded-f6afb5dd9b8759bd6978bc4aa427617b_rogue_texture.png::CompressedTexture2D::8503146822141054767::1697469551::1697469577::1::::<><>::
 RogueHooded.fbx::PackedScene::3193887254017734880::1692623303::1697469552::1::::<><>::
 rogue_texture.png::CompressedTexture2D::6803732252294720446::1689255011::1697469466::1::::<><>::
-::res://Characters/Characters/gltf/::1697471336
+::res://Characters/Characters/gltf/::1697549691
 Barbarian.glb::PackedScene::6765473561136753776::1692622220::1697469553::1::::<><>::
 Barbarian_barbarian_texture.png::CompressedTexture2D::2711600807822812543::1697469552::1697469577::1::::<><>::
-barbarian_texture.png::CompressedTexture2D::9181498911446640297::1689255004::1697469466::1::::<><>::
+barbarian_texture.png::CompressedTexture2D::9181498911446640297::1689255004::1697549691::1::::<><>::
 Knight.glb::PackedScene::46079475696276193::1692622289::1697469553::1::::<><>::
 Knight_knight_texture.png::CompressedTexture2D::7687285730669161552::1697469553::1697469577::1::::<><>::
 knight_texture.png::CompressedTexture2D::7530558488673720212::1689255008::1697469466::1::::<><>::
@@ -129,13 +130,13 @@ barbarian_texture.png::CompressedTexture2D::2686743870814948898::1689255004::169
 knight_texture.png::CompressedTexture2D::1523508469154028060::1689255008::1697469466::1::::<><>::
 mage_texture.png::CompressedTexture2D::131802961404777849::1689255010::1697469466::1::::<><>::
 rogue_texture.png::CompressedTexture2D::4588734807637167607::1689255011::1697469466::1::::<><>::
-::res://Floor/::1697461639
-CeramicPlainWhite001_COL_4K.jpg::CompressedTexture2D::825467195855542605::1697460935::1697460946::1::::<><>::
-CeramicPlainWhite001_DISP_4K.jpg::CompressedTexture2D::771747168286085076::1697460935::1697460945::1::::<><>::
+::res://Floor/::1697548727
+CeramicPlainWhite001_COL_4K.jpg::CompressedTexture2D::825467195855542605::1697460935::1697548704::1::::<><>::
+CeramicPlainWhite001_DISP_4K.jpg::CompressedTexture2D::771747168286085076::1697460935::1697548727::1::::<><>::
 CeramicPlainWhite001_GLOSS_4K.jpg::CompressedTexture2D::2772120250284315326::1697460935::1697461039::1::::<><>::
-CeramicPlainWhite001_NRM_4K.png::CompressedTexture2D::6362750793003839477::1697460935::1697460946::1::::<><>::
+CeramicPlainWhite001_NRM_4K.png::CompressedTexture2D::6362750793003839477::1697460935::1697548722::1::::<><>::
 CeramicPlainWhite001_REFL_4K.jpg::CompressedTexture2D::6043554016601066199::1697460935::1697461639::1::::<><>::
-CeramicPlainWhite001_Sphere.png::CompressedTexture2D::8894135808358585041::1697460935::1697460945::1::::<><>::
+CeramicPlainWhite001_Sphere.png::CompressedTexture2D::8894135808358585041::1697460935::1697548711::1::::<><>::
 ::res://Rock and Tree Assets/::1697460720
 readme.txt::TextFile::-1::1697453909::0::1::::<><>::
 ::res://Rock and Tree Assets/Rocks/::1697460547
@@ -172,10 +173,11 @@ Rock_25.fbx::PackedScene::6132626948529856165::1697453909::1697453912::1::::<><>
 ::res://Rock and Tree Assets/RockTexture/::1697453910
 rockTexture1.png::CompressedTexture2D::8314954340588562614::1697453909::1697453910::1::::<><>::
 RockTexture2.png::CompressedTexture2D::2653930553293734620::1697453909::1697453910::1::::<><>::
-::res://Rock and Tree Assets/Trees/::1697453918
+::res://Rock and Tree Assets/Trees/::1697549315
 DeadOak1.fbx::PackedScene::3238436234136492439::1697453909::1697453912::1::::<><>::
 DeadOak2.fbx::PackedScene::4671367337220951474::1697453909::1697453913::1::::<><>::
 DeadOak3.fbx::PackedScene::5326089473615368150::1697453909::1697453913::1::::<><>::
+DeadOakTreeTrunk.png::CompressedTexture2D::8343566798375965134::1697453909::1697549315::1::::<><>::
 DeadSpruce1.fbx::PackedScene::8055063884647355722::1697453909::1697453914::1::::<><>::
 DeadSpruce2.fbx::PackedScene::3061793786227422602::1697453909::1697453914::1::::<><>::
 DeadSpruce3.fbx::PackedScene::8774829239393455177::1697453909::1697453915::1::::<><>::
@@ -185,15 +187,14 @@ OakTree3.fbx::PackedScene::4031604314474395408::1697453909::1697453917::1::::<><
 SpruceTree1.fbx::PackedScene::7441957948317335882::1697453909::1697453917::1::::<><>::
 SpruceTree2.fbx::PackedScene::6953496726440779259::1697453909::1697453918::1::::<><>::
 SpruceTree3.fbx::PackedScene::7687786816483436953::1697453909::1697453918::1::::<><>::
-::res://Rock and Tree Assets/TreesTexture/::1697453910
-DeadOakTreeTrunk.png::CompressedTexture2D::8343566798375965134::1697453909::1697453910::1::::<><>::
+::res://Rock and Tree Assets/TreesTexture/::1697549314
 DeadSpruceTreeTrunk.png::CompressedTexture2D::2413202122702805987::1697453909::1697453910::1::::<><>::
 OakTreeLeaf.png::CompressedTexture2D::1649664876441720427::1697453909::1697453910::1::::<><>::
 OakTreeTrunk.png::CompressedTexture2D::1528653795485645403::1697453909::1697453910::1::::<><>::
-SpruceTreeLeaf.png::CompressedTexture2D::5335121033370894240::1697453909::1697453910::1::::<><>::
+SpruceTreeLeaf.png::CompressedTexture2D::5335121033370894240::1697453909::1697548975::1::::<><>::
 SpruceTreeTrunk.png::CompressedTexture2D::4872105571874708351::1697453909::1697453910::1::::<><>::
-::res://Scenes/::1697475856
-environment.tscn::PackedScene::5689466571362978777::1697475757::0::1::::<><>::uid://csdspme2cwqkt::::res://Floor/CeramicPlainWhite001_REFL_4K.jpg<>res://Scripts/Player.gd
-::res://Scripts/::1697475753
-Follow Camera.gd::GDScript::-1::1697465159::0::1::::<>SpringArm3D<>::
-Player.gd::GDScript::-1::1697475753::0::1::::<>CharacterBody3D<>::
+::res://Scenes/::1697551168
+Player.tscn::PackedScene::1739330452423853137::1697551168::0::1::::<><>::res://Player.gd<>uid://du6nqt4am4i6h::::res://Characters/Characters/gltf/Rogue_Hooded.glb
+Test2.tscn::PackedScene::5689466571362978777::1697551172::0::1::::<><>::uid://csdspme2cwqkt::::res://Floor/CeramicPlainWhite001_REFL_4K.jpg<>res://Player.gd<>uid://du6nqt4am4i6h::::res://Characters/Characters/gltf/Rogue_Hooded.glb<>uid://dnmtktj6ewg0n::::res://Rock and Tree Assets/Rocks/BigRock1.fbx<>uid://dsgruslg76ha2::::res://Rock and Tree Assets/Rocks/Rock4.fbx<>uid://cmclm80mmgsvm::::res://Rock and Tree Assets/Rocks/Rock2.fbx<>uid://bslswyy76hykh::::res://Rock and Tree Assets/Rocks/Rock_12.fbx<>uid://c6clcs5k5iqn8::::res://Rock and Tree Assets/Trees/SpruceTree2.fbx<>uid://dhsayw4v746cr::::res://Rock and Tree Assets/Trees/SpruceTree3.fbx
+::res://Scripts/::1697548593
+Player.gd::GDScript::-1::1697547629::0::1::::<>CharacterBody3D<>::
