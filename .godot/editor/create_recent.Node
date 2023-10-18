@@ -1,3 +1,5 @@
+AnimationTree
+CSGMesh3D
 CollisionShape3D
 StaticBody3D
 CollisionPolygon3D

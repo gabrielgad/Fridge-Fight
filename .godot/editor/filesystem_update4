@@ -1,5 +1,2 @@
-res://Scenes/3rd Person World.tscn
-res://Scripts/Player.gd
-res://Scenes/Test2.tscn
-res://CharacterBody3D.gd
 res://Scenes/Player.tscn
+res://Scenes/Test2.tscn
