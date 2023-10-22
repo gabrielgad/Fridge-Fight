@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1697566031
+::res://::1697945220
 ::res://Characters/::1697562384
 ::res://Characters/Assets/::1697562383
 ::res://Characters/Assets/fbx/::1697562612
@@ -93,8 +93,9 @@ sword_1handed.gltf::PackedScene::3918571951197448704::1697562383::1697562605::1:
 sword_2handed.gltf::PackedScene::1202087098530211027::1697562383::1697562605::1::::<><>::uid://bcmnq52ufqnl
 sword_2handed_color.gltf::PackedScene::6214098009461767051::1697562383::1697562605::1::::<><>::uid://bcmnq52ufqnl
 wand.gltf::PackedScene::8423765696544576121::1697562383::1697562604::1::::<><>::uid://b2pa7lkrrf1kl
-::res://Characters/Characters/::1697562384
-::res://Characters/Characters/fbx/::1697562590
+::res://Characters/Characters/::1697906172
+::res://Characters/Characters/fbx/::1697906172
+Angry_waffle.fbx::PackedScene::111366207564887950::1697765420::1697906172::1::::<><>::
 Barbarian-4eaf6d944e22669fe0ee9efb4af7a6c8_barbarian_texture.png::CompressedTexture2D::9067107207142975119::1697562383::1697562539::1::::<><>::
 Barbarian.fbx::PackedScene::4515418578310910688::1697562383::1697562560::1::::<><>::uid://d2gf6whja8eih
 barbarian_texture.png::CompressedTexture2D::1779128417520589757::1697562384::1697562539::1::::<><>::
@@ -169,7 +170,7 @@ Rock_22.fbx::PackedScene::5976647100888790470::1697562384::1697562384::1::::<><>
 Rock_23.fbx::PackedScene::4574798305024010047::1697562384::1697562384::1::::<><>::
 Rock_24.fbx::PackedScene::2744466825543432004::1697562384::1697562384::1::::<><>::
 Rock_25.fbx::PackedScene::6132626948529856165::1697562384::1697562384::1::::<><>::
-::res://Rock and Tree Assets/RockTexture/::1697562384
+::res://Rock and Tree Assets/RockTexture/::1697566919
 rockTexture1.png::CompressedTexture2D::8314954340588562614::1697562384::1697566384::1::::<><>::
 RockTexture2.png::CompressedTexture2D::2653930553293734620::1697562384::1697566919::1::::<><>::
 ::res://Rock and Tree Assets/Trees/::1697562539
@@ -186,14 +187,14 @@ OakTree3.fbx::PackedScene::4031604314474395408::1697562384::1697562384::1::::<><
 SpruceTree1.fbx::PackedScene::7441957948317335882::1697562384::1697562384::1::::<><>::
 SpruceTree2.fbx::PackedScene::6953496726440779259::1697562384::1697562384::1::::<><>::
 SpruceTree3.fbx::PackedScene::7687786816483436953::1697562384::1697562384::1::::<><>::
-::res://Rock and Tree Assets/TreesTexture/::1697562539
+::res://Rock and Tree Assets/TreesTexture/::1697567364
 DeadSpruceTreeTrunk.png::CompressedTexture2D::2413202122702805987::1697562384::1697562384::1::::<><>::
 OakTreeLeaf.png::CompressedTexture2D::1649664876441720427::1697562384::1697567364::1::::<><>::
 OakTreeTrunk.png::CompressedTexture2D::1528653795485645403::1697562384::1697562384::1::::<><>::
 SpruceTreeLeaf.png::CompressedTexture2D::5335121033370894240::1697562384::1697562539::1::::<><>::
 SpruceTreeTrunk.png::CompressedTexture2D::4872105571874708351::1697562384::1697562384::1::::<><>::
-::res://Scenes/::1697566126
-Player.tscn::PackedScene::1739330452423853137::1697566503::0::1::::<><>::uid://b62nfkrricn6h::::res://Characters/Characters/gltf/Rogue_Hooded_rogue_texture.png
-Test2.tscn::PackedScene::5689466571362978777::1697567332::0::1::::<><>::uid://l04law7reelx::::res://Floor/CeramicPlainWhite001_COL_4K.jpg<>uid://bd2t333hgqaa3::::res://Rock and Tree Assets/RockTexture/RockTexture2.png<>uid://ciamwtr3r20ie::::res://Rock and Tree Assets/TreesTexture/SpruceTreeLeaf.png<>uid://dqp3c3eq8mmxi::::res://Rock and Tree Assets/RockTexture/rockTexture1.png<>uid://c6clcs5k5iqn8::::res://Rock and Tree Assets/Trees/SpruceTree2.fbx<>uid://y1srvkpor610::::res://Scenes/Player.tscn
-::res://Scripts/::1697562384
-Player.gd::GDScript::-1::1697562384::0::1::::<>CharacterBody3D<>::
+::res://Scenes/::1697931007
+Player.tscn::PackedScene::1739330452423853137::1697931007::0::1::::<><>::uid://b62nfkrricn6h::::res://Characters/Characters/gltf/Rogue_Hooded_rogue_texture.png<>res://Scripts/Player.gd
+Test2.tscn::PackedScene::5689466571362978777::1697930505::0::1::::<><>::uid://l04law7reelx::::res://Floor/CeramicPlainWhite001_COL_4K.jpg<>uid://bd2t333hgqaa3::::res://Rock and Tree Assets/RockTexture/RockTexture2.png<>uid://ciamwtr3r20ie::::res://Rock and Tree Assets/TreesTexture/SpruceTreeLeaf.png<>uid://dqp3c3eq8mmxi::::res://Rock and Tree Assets/RockTexture/rockTexture1.png<>uid://y1srvkpor610::::res://Scenes/Player.tscn
+::res://Scripts/::1697931007
+Player.gd::GDScript::-1::1697931007::0::1::::<>CharacterBody3D<>::

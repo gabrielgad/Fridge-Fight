@@ -337,8 +337,6 @@ radius = 2.79657
 
 [node name="World" type="Node3D"]
 
-[node name="CharacterBody3D" parent="." instance=ExtResource("8_64jen")]
-
 [node name="Map" type="Node3D" parent="."]
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="Map"]
@@ -460,3 +458,5 @@ skeleton = NodePath("")
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Map/SpruceTree3/StaticBody3D"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.0698, 1.76146, -10.4684)
 shape = SubResource("CylinderShape3D_c1fs6")
+
+[node name="Player" parent="." instance=ExtResource("8_64jen")]
