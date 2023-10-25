@@ -4,6 +4,7 @@ extends CharacterBody3D
 @onready var spring_arm_pivot = $SpringArmPivot
 @onready var spring_arm_3d = $SpringArmPivot/SpringArm3D
 @onready var rogue_hooded = $Rogue_Hooded
+@onready var animation_tree = $AnimationTree
 
 
 @export var MAX_SPEED = 20
@@ -12,6 +13,8 @@ extends CharacterBody3D
 @onready var axis = Vector3.ZERO
 
 const LERP_VAL = .05
+#var currentinput :  Vector2
+#var currentvelocity : Vector2
 
 func _ready():
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
@@ -27,7 +30,7 @@ func _unhandled_input(event):
 
 func _process(delta):
 	move(delta)
-
+	animation_tree.set("parameters/Move_Blend/blend_position", axis)
 
 func get_input_axis():
 	axis.x = Input.get_axis("Left", "Right")

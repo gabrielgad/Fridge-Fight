@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1697945220
+::res://::1698189803
 ::res://Characters/::1697562384
 ::res://Characters/Assets/::1697562383
 ::res://Characters/Assets/fbx/::1697562612
@@ -193,8 +193,8 @@ OakTreeLeaf.png::CompressedTexture2D::1649664876441720427::1697562384::169756736
 OakTreeTrunk.png::CompressedTexture2D::1528653795485645403::1697562384::1697562384::1::::<><>::
 SpruceTreeLeaf.png::CompressedTexture2D::5335121033370894240::1697562384::1697562539::1::::<><>::
 SpruceTreeTrunk.png::CompressedTexture2D::4872105571874708351::1697562384::1697562384::1::::<><>::
-::res://Scenes/::1697931007
-Player.tscn::PackedScene::1739330452423853137::1697931007::0::1::::<><>::uid://b62nfkrricn6h::::res://Characters/Characters/gltf/Rogue_Hooded_rogue_texture.png<>res://Scripts/Player.gd
-Test2.tscn::PackedScene::5689466571362978777::1697930505::0::1::::<><>::uid://l04law7reelx::::res://Floor/CeramicPlainWhite001_COL_4K.jpg<>uid://bd2t333hgqaa3::::res://Rock and Tree Assets/RockTexture/RockTexture2.png<>uid://ciamwtr3r20ie::::res://Rock and Tree Assets/TreesTexture/SpruceTreeLeaf.png<>uid://dqp3c3eq8mmxi::::res://Rock and Tree Assets/RockTexture/rockTexture1.png<>uid://y1srvkpor610::::res://Scenes/Player.tscn
+::res://Scenes/::1697945258
+Player.tscn::PackedScene::1739330452423853137::1697945258::0::1::::<><>::uid://b62nfkrricn6h::::res://Characters/Characters/gltf/Rogue_Hooded_rogue_texture.png<>res://Scripts/Player.gd
+Test2.tscn::PackedScene::5689466571362978777::1697945232::0::1::::<><>::uid://l04law7reelx::::res://Floor/CeramicPlainWhite001_COL_4K.jpg<>uid://bd2t333hgqaa3::::res://Rock and Tree Assets/RockTexture/RockTexture2.png<>uid://ciamwtr3r20ie::::res://Rock and Tree Assets/TreesTexture/SpruceTreeLeaf.png<>uid://dqp3c3eq8mmxi::::res://Rock and Tree Assets/RockTexture/rockTexture1.png<>uid://y1srvkpor610::::res://Scenes/Player.tscn
 ::res://Scripts/::1697931007
 Player.gd::GDScript::-1::1697931007::0::1::::<>CharacterBody3D<>::
