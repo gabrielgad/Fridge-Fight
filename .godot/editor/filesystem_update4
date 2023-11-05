@@ -1,5 +1,7 @@
-res://Scenes/World.tscn
 res://Scenes/Player.tscn
-res://Scenes/main.tscn
 res://Scripts/Player.gd
-res://Scenes/Player_Animations.gd
+res://Scenes/main.tscn
+res://Scenes/World.tscn
+res://Scenes/test_surface.tscn
+res://Scenes/UI.tscn
+res://Scripts/main.gd

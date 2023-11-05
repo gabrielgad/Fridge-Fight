@@ -1,26 +1,27 @@
-[gd_scene load_steps=44 format=3 uid="uid://cncaxh1b5nsmr"]
+[gd_scene load_steps=45 format=3 uid="uid://cncaxh1b5nsmr"]
 
-[ext_resource type="Texture2D" uid="uid://l04law7reelx" path="res://Floor/CeramicPlainWhite001_COL_4K.jpg" id="2_m16dt"]
 [ext_resource type="Texture2D" uid="uid://bd2t333hgqaa3" path="res://Rock and Tree Assets/RockTexture/RockTexture2.png" id="4_f535w"]
 [ext_resource type="Texture2D" uid="uid://ciamwtr3r20ie" path="res://Rock and Tree Assets/TreesTexture/SpruceTreeLeaf.png" id="6_3ydql"]
 [ext_resource type="Texture2D" uid="uid://dqp3c3eq8mmxi" path="res://Rock and Tree Assets/RockTexture/rockTexture1.png" id="7_kqghp"]
 
-[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_pbblo"]
+[sub_resource type="PhysicalSkyMaterial" id="PhysicalSkyMaterial_p307h"]
 
 [sub_resource type="Sky" id="Sky_wt84e"]
-sky_material = SubResource("ProceduralSkyMaterial_pbblo")
+sky_material = SubResource("PhysicalSkyMaterial_p307h")
 
 [sub_resource type="Environment" id="Environment_3htvr"]
 background_mode = 2
 sky = SubResource("Sky_wt84e")
 tonemap_mode = 3
+ssr_enabled = true
+ssao_enabled = true
+ssil_enabled = true
+sdfgi_enabled = true
+glow_enabled = true
 
 [sub_resource type="CameraAttributesPractical" id="CameraAttributesPractical_2wak7"]
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_fk0vu"]
-albedo_texture = ExtResource("2_m16dt")
-
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_r5xgq"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_qeheg"]
 albedo_texture = ExtResource("7_kqghp")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_0gm44"]
@@ -43,7 +44,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_e43ns"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_k6r21"]
 resource_name = "Root Scene_BigRock1"
 _surfaces = [{
 "aabb": AABB(-0.0267981, -0.0262701, -0.0126619, 0.0604189, 0.0589442, 0.0386235),
@@ -60,12 +61,12 @@ _surfaces = [{
 blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_2nmhp")
 
-[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_0jd1q"]
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_8423o"]
 
-[sub_resource type="SphereShape3D" id="SphereShape3D_dvgfk"]
+[sub_resource type="SphereShape3D" id="SphereShape3D_dred7"]
 radius = 7.73121
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_mk8st"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ps4po"]
 albedo_texture = ExtResource("4_f535w")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_4aucm"]
@@ -88,7 +89,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_fqeiw"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_chfe8"]
 resource_name = "Root Scene_Rock4"
 _surfaces = [{
 "aabb": AABB(-0.0116363, -0.0146153, -0.00657803, 0.0176896, 0.0179413, 0.0131933),
@@ -105,10 +106,10 @@ _surfaces = [{
 blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_8uoyu")
 
-[sub_resource type="SphereShape3D" id="SphereShape3D_l565b"]
+[sub_resource type="SphereShape3D" id="SphereShape3D_e1sov"]
 radius = 0.96742
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_h2yb7"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_v14dm"]
 albedo_texture = ExtResource("7_kqghp")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_26e6a"]
@@ -131,7 +132,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_kma3f"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_uiom2"]
 resource_name = "Root Scene_Rock2"
 _surfaces = [{
 "aabb": AABB(-0.0137905, -0.0110032, -0.0091619, 0.0174674, 0.0226233, 0.0203693),
@@ -148,10 +149,10 @@ _surfaces = [{
 blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_5fnr7")
 
-[sub_resource type="SphereShape3D" id="SphereShape3D_uqy4x"]
+[sub_resource type="SphereShape3D" id="SphereShape3D_3gcmc"]
 radius = 1.1751
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_tnfar"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_goak5"]
 albedo_texture = ExtResource("7_kqghp")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_5j157"]
@@ -174,7 +175,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_1ddt8"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_465f1"]
 resource_name = "Root Scene_Rock_12"
 _surfaces = [{
 "aabb": AABB(-0.027732, -0.0179159, -0.0106154, 0.0490801, 0.0396172, 0.023323),
@@ -191,14 +192,14 @@ _surfaces = [{
 blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_ss88h")
 
-[sub_resource type="SphereShape3D" id="SphereShape3D_8wmvc"]
+[sub_resource type="SphereShape3D" id="SphereShape3D_yeds8"]
 radius = 1.98775
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_n35wg"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xbn62"]
 albedo_color = Color(0.470588, 0.470588, 0.470588, 1)
 albedo_texture = ExtResource("7_kqghp")
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_64ja1"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_dmx4v"]
 albedo_texture = ExtResource("6_3ydql")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_uue5k"]
@@ -236,7 +237,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_1uchb"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_sq77v"]
 resource_name = "Root Scene_SpruceTree2"
 _surfaces = [{
 "aabb": AABB(-0.00238487, -0.00248261, -0.00383482, 0.00535743, 0.005421, 0.0457406),
@@ -263,11 +264,11 @@ _surfaces = [{
 blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_sb0sm")
 
-[sub_resource type="CylinderShape3D" id="CylinderShape3D_mbxej"]
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_xbqmk"]
 height = 2.71527
 radius = 1.29553
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_e41tb"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_lj8my"]
 albedo_texture = ExtResource("6_3ydql")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ptio2"]
@@ -304,7 +305,7 @@ _surfaces = [{
 }]
 blend_shape_mode = 0
 
-[sub_resource type="ArrayMesh" id="ArrayMesh_ixtju"]
+[sub_resource type="ArrayMesh" id="ArrayMesh_db0yw"]
 resource_name = "Root Scene_SpruceTree3"
 _surfaces = [{
 "aabb": AABB(-0.00698718, -0.00691241, -0.00458682, 0.0148586, 0.014654, 0.0955967),
@@ -330,9 +331,24 @@ _surfaces = [{
 blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_beny6")
 
-[sub_resource type="CylinderShape3D" id="CylinderShape3D_c1fs6"]
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_bvpxx"]
 height = 3.4182
 radius = 2.79657
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_v62gq"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_g0rjg"]
+transparency = 1
+depth_draw_mode = 1
+albedo_color = Color(1, 1, 1, 0.388235)
+metallic = 0.6
+roughness = 0.54
+ao_enabled = true
+ao_light_affect = 0.51
+refraction_enabled = true
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_ndorm"]
+material = SubResource("StandardMaterial3D_g0rjg")
 
 [node name="World" type="Node3D"]
 
@@ -343,117 +359,127 @@ environment = SubResource("Environment_3htvr")
 camera_attributes = SubResource("CameraAttributesPractical_2wak7")
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="Map"]
-transform = Transform3D(1, 0, 0, 0, 0.6396, 0.768708, 0, -0.768708, 0.6396, 0, 0, -2.43274)
+transform = Transform3D(1, 0, 0, 0, 0.6396, 0.768708, 0, -0.768708, 0.6396, 0, 0, 0)
+light_energy = 1.5
 shadow_enabled = true
 
-[node name="CSGBox3D" type="CSGBox3D" parent="Map"]
-use_collision = true
-size = Vector3(100, 0.002, 100)
-material = SubResource("StandardMaterial3D_fk0vu")
+[node name="Objects" type="Node3D" parent="Map"]
 
-[node name="BigRock1" type="Node3D" parent="Map"]
+[node name="BigRock1" type="Node3D" parent="Map/Objects"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.83795, 2.13208, 15.3779)
 
-[node name="RootNode" type="Node3D" parent="Map/BigRock1"]
+[node name="RootNode" type="Node3D" parent="Map/Objects/BigRock1"]
 
-[node name="BigRock1" type="MeshInstance3D" parent="Map/BigRock1/RootNode"]
+[node name="BigRock1" type="MeshInstance3D" parent="Map/Objects/BigRock1/RootNode"]
 transform = Transform3D(244.138, 0, 0, 0, -2.91035e-05, 244.138, 0, -244.138, -2.91035e-05, -15.9821, 0, -32.2588)
-material_override = SubResource("StandardMaterial3D_r5xgq")
-mesh = SubResource("ArrayMesh_e43ns")
+material_override = SubResource("StandardMaterial3D_qeheg")
+mesh = SubResource("ArrayMesh_k6r21")
 skeleton = NodePath("")
 
-[node name="StaticBody3D" type="StaticBody3D" parent="Map/BigRock1"]
-physics_material_override = SubResource("PhysicsMaterial_0jd1q")
+[node name="StaticBody3D" type="StaticBody3D" parent="Map/Objects/BigRock1"]
+physics_material_override = SubResource("PhysicsMaterial_8423o")
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="Map/BigRock1/StaticBody3D"]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Map/Objects/BigRock1/StaticBody3D"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.239, 1.04439, -32.6009)
-shape = SubResource("SphereShape3D_dvgfk")
+shape = SubResource("SphereShape3D_dred7")
 
-[node name="Rock4" type="Node3D" parent="Map"]
+[node name="Rock4" type="Node3D" parent="Map/Objects"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20.1813, 0.000999451, -34.9918)
 
-[node name="RootNode" type="Node3D" parent="Map/Rock4"]
+[node name="RootNode" type="Node3D" parent="Map/Objects/Rock4"]
 
-[node name="Rock4" type="MeshInstance3D" parent="Map/Rock4/RootNode"]
+[node name="Rock4" type="MeshInstance3D" parent="Map/Objects/Rock4/RootNode"]
 transform = Transform3D(100, 0, 0, 0, -1.19209e-05, 100, 0, -100, -1.19209e-05, 7.98801, 0, 16.2935)
-material_override = SubResource("StandardMaterial3D_mk8st")
-mesh = SubResource("ArrayMesh_fqeiw")
+material_override = SubResource("StandardMaterial3D_ps4po")
+mesh = SubResource("ArrayMesh_chfe8")
 skeleton = NodePath("")
 
-[node name="StaticBody3D" type="StaticBody3D" parent="Map/Rock4"]
+[node name="StaticBody3D" type="StaticBody3D" parent="Map/Objects/Rock4"]
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="Map/Rock4/StaticBody3D"]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Map/Objects/Rock4/StaticBody3D"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.67755, 0.104426, 16.8063)
-shape = SubResource("SphereShape3D_l565b")
+shape = SubResource("SphereShape3D_e1sov")
 
-[node name="Rock2" type="Node3D" parent="Map"]
+[node name="Rock2" type="Node3D" parent="Map/Objects"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.5246, 0.00100136, -29.9176)
 
-[node name="RootNode" type="Node3D" parent="Map/Rock2"]
+[node name="RootNode" type="Node3D" parent="Map/Objects/Rock2"]
 
-[node name="Rock2" type="MeshInstance3D" parent="Map/Rock2/RootNode"]
+[node name="Rock2" type="MeshInstance3D" parent="Map/Objects/Rock2/RootNode"]
 transform = Transform3D(100, 0, 0, 0, -1.19209e-05, 100, 0, -100, -1.19209e-05, -7.17417, 0, 16.7565)
-material_override = SubResource("StandardMaterial3D_h2yb7")
-mesh = SubResource("ArrayMesh_kma3f")
+material_override = SubResource("StandardMaterial3D_v14dm")
+mesh = SubResource("ArrayMesh_uiom2")
 skeleton = NodePath("")
 
-[node name="StaticBody3D" type="StaticBody3D" parent="Map/Rock2"]
+[node name="StaticBody3D" type="StaticBody3D" parent="Map/Objects/Rock2"]
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="Map/Rock2/StaticBody3D"]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Map/Objects/Rock2/StaticBody3D"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.79662, 0.179806, 16.615)
-shape = SubResource("SphereShape3D_uqy4x")
+shape = SubResource("SphereShape3D_3gcmc")
 
-[node name="Rock_12" type="Node3D" parent="Map"]
+[node name="Rock_12" type="Node3D" parent="Map/Objects"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30.9235, 0.000999451, 12.9617)
 
-[node name="RootNode" type="Node3D" parent="Map/Rock_12"]
+[node name="RootNode" type="Node3D" parent="Map/Objects/Rock_12"]
 
-[node name="Rock_12" type="MeshInstance3D" parent="Map/Rock_12/RootNode"]
+[node name="Rock_12" type="MeshInstance3D" parent="Map/Objects/Rock_12/RootNode"]
 transform = Transform3D(100, 0, 0, 0, -1.19209e-05, 100, 0, -100, -1.19209e-05, -7.04806, 0, 0.0819645)
-material_override = SubResource("StandardMaterial3D_tnfar")
-mesh = SubResource("ArrayMesh_1ddt8")
+material_override = SubResource("StandardMaterial3D_goak5")
+mesh = SubResource("ArrayMesh_465f1")
 skeleton = NodePath("")
 
-[node name="StaticBody3D" type="StaticBody3D" parent="Map/Rock_12"]
+[node name="StaticBody3D" type="StaticBody3D" parent="Map/Objects/Rock_12"]
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="Map/Rock_12/StaticBody3D"]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Map/Objects/Rock_12/StaticBody3D"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.30382, -0.073514, 0)
-shape = SubResource("SphereShape3D_8wmvc")
+shape = SubResource("SphereShape3D_yeds8")
 
-[node name="CSGMesh3D" type="CSGMesh3D" parent="Map/Rock_12"]
+[node name="CSGMesh3D" type="CSGMesh3D" parent="Map/Objects/Rock_12"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.10261, 1.98808, 0)
-material = SubResource("StandardMaterial3D_n35wg")
+material = SubResource("StandardMaterial3D_xbn62")
 
-[node name="SpruceTree2" type="Node3D" parent="Map"]
+[node name="SpruceTree2" type="Node3D" parent="Map/Objects"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.2182, 0.000995636, 16.6669)
 
-[node name="RootNode" type="Node3D" parent="Map/SpruceTree2"]
+[node name="RootNode" type="Node3D" parent="Map/Objects/SpruceTree2"]
 
-[node name="SpruceTree2" type="MeshInstance3D" parent="Map/SpruceTree2/RootNode"]
+[node name="SpruceTree2" type="MeshInstance3D" parent="Map/Objects/SpruceTree2/RootNode"]
 transform = Transform3D(100, 0, 0, 0, -1.19209e-05, 100, 0, -100, -1.19209e-05, -0.0613089, 0.459251, -10.1379)
-material_override = SubResource("StandardMaterial3D_64ja1")
-mesh = SubResource("ArrayMesh_1uchb")
+material_override = SubResource("StandardMaterial3D_dmx4v")
+mesh = SubResource("ArrayMesh_sq77v")
 skeleton = NodePath("")
 
-[node name="StaticBody3D" type="StaticBody3D" parent="Map/SpruceTree2"]
+[node name="StaticBody3D" type="StaticBody3D" parent="Map/Objects/SpruceTree2"]
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="Map/SpruceTree2/StaticBody3D"]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Map/Objects/SpruceTree2/StaticBody3D"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0928354, 1.36672, -10.2547)
-shape = SubResource("CylinderShape3D_mbxej")
+shape = SubResource("CylinderShape3D_xbqmk")
 
-[node name="SpruceTree3" type="Node3D" parent="Map"]
+[node name="SpruceTree3" type="Node3D" parent="Map/Objects"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24.9224, 0.000997543, 8.80809)
 
-[node name="RootNode" type="Node3D" parent="Map/SpruceTree3"]
+[node name="RootNode" type="Node3D" parent="Map/Objects/SpruceTree3"]
 
-[node name="SpruceTree3" type="MeshInstance3D" parent="Map/SpruceTree3/RootNode"]
+[node name="SpruceTree3" type="MeshInstance3D" parent="Map/Objects/SpruceTree3/RootNode"]
 transform = Transform3D(149.202, 0, 0, 0, -1.77862e-05, 132.827, 0, -149.202, -1.58342e-05, 7.80338, 0.459251, -10.396)
-material_override = SubResource("StandardMaterial3D_e41tb")
-mesh = SubResource("ArrayMesh_ixtju")
+material_override = SubResource("StandardMaterial3D_lj8my")
+mesh = SubResource("ArrayMesh_db0yw")
 skeleton = NodePath("")
 
-[node name="StaticBody3D" type="StaticBody3D" parent="Map/SpruceTree3"]
+[node name="StaticBody3D" type="StaticBody3D" parent="Map/Objects/SpruceTree3"]
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="Map/SpruceTree3/StaticBody3D"]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Map/Objects/SpruceTree3/StaticBody3D"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.0698, 1.76146, -10.4684)
-shape = SubResource("CylinderShape3D_c1fs6")
+shape = SubResource("CylinderShape3D_bvpxx")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+transform = Transform3D(50, 0, 0, 0, 50, 0, 0, 0, 50, 0, 0, 0)
+physics_material_override = SubResource("PhysicsMaterial_v62gq")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D"]
+mesh = SubResource("PlaneMesh_ndorm")
+
+[node name="CollisionPolygon3D" type="CollisionPolygon3D" parent="StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
+depth = 0.0
+polygon = PackedVector2Array(1, 1, -1, 1, -1, -1, 1, -1)
