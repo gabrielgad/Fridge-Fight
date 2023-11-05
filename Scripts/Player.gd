@@ -8,13 +8,14 @@ extends CharacterBody3D
 
 
 @export var MAX_SPEED = 20
-@export var ACCELERATION = 100
-@export var FRICTION = 80
+@export var ACCELERATION = 120
+@export var FRICTION = 115
 @onready var axis = Vector3.ZERO
 
 const LERP_VAL = .05
 #var currentinput :  Vector2
 #var currentvelocity : Vector2
+
 
 func _ready():
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
