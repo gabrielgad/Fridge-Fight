@@ -8,14 +8,20 @@ extends CharacterBody3D
 
 var target_distance: float = 70
 @export var MAX_SPEED = 20
+<<<<<<< HEAD
 @export var ACCELERATION = 150
 @export var FRICTION = 80
+=======
+@export var ACCELERATION = 120
+@export var FRICTION = 115
+>>>>>>> 0ccc804db4a4883a8ef446c0424bb2828b96455a
 @onready var axis = Vector3.ZERO
 var rayOrigion = Vector3()
 var rayEnd = Vector3()
 
 
 const LERP_VAL = 0.8
+
 
 
 func _ready():
