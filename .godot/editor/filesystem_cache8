@@ -1,5 +1,7 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1699185428
+::res://::1701463920
+EnemySpawner.gd::GDScript::-1::1701463898::0::1::::<>Node3D<>::
+README.md::TextFile::-1::1699190150::0::1::::<><>::
 ::res://Characters/::1697558784
 ::res://Characters/Assets/::1697558783
 ::res://Characters/Assets/fbx/::1697559012
@@ -195,14 +197,19 @@ OakTreeLeaf.png::CompressedTexture2D::1649664876441720427::1697558784::169756376
 OakTreeTrunk.png::CompressedTexture2D::1528653795485645403::1697558784::1697558784::1::::<><>::
 SpruceTreeLeaf.png::CompressedTexture2D::5335121033370894240::1697558784::1697558939::1::::<><>::
 SpruceTreeTrunk.png::CompressedTexture2D::4872105571874708351::1697558784::1697558784::1::::<><>::
-::res://Scenes/::1698416129
-Label.gd::GDScript::-1::1698369202::0::1::::<>Label<>::
-main.tscn::PackedScene::7505726982070645345::1698416129::0::1::::<><>::res://Scripts/main.gd<>uid://y1srvkpor610::::res://Scenes/Player.tscn<>uid://cncaxh1b5nsmr::::res://Scenes/World.tscn<>uid://dmk8la33cqvig::::res://Scenes/UI.tscn
-Player.tscn::PackedScene::1739330452423853137::1698369020::0::1::::<><>::uid://b62nfkrricn6h::::res://Characters/Characters/gltf/Rogue_Hooded_rogue_texture.png<>res://Scripts/Player.gd
-test_surface.tscn::PackedScene::1655118189188058750::1698369021::0::1::::<><>::uid://dqp3c3eq8mmxi::::res://Rock and Tree Assets/RockTexture/rockTexture1.png<>uid://bd2t333hgqaa3::::res://Rock and Tree Assets/RockTexture/RockTexture2.png<>uid://ciamwtr3r20ie::::res://Rock and Tree Assets/TreesTexture/SpruceTreeLeaf.png
-UI.tscn::PackedScene::8024195301300578314::1698369232::0::1::::<><>::res://Scenes/Label.gd
-World.tscn::PackedScene::5689466571362978777::1698369021::0::1::::<><>::uid://bd2t333hgqaa3::::res://Rock and Tree Assets/RockTexture/RockTexture2.png<>uid://ciamwtr3r20ie::::res://Rock and Tree Assets/TreesTexture/SpruceTreeLeaf.png<>uid://dqp3c3eq8mmxi::::res://Rock and Tree Assets/RockTexture/rockTexture1.png
-::res://Scripts/::1698416129
-main.gd::GDScript::-1::1698339069::0::1::::<>Node<>::
-Player.gd::GDScript::-1::1698416129::0::1::::<>CharacterBody3D<>::
-Player_Animations.gd::GDScript::-1::1698188534::0::1::::<>AnimationTree<>::
+::res://Scenes/::1701463987
+Enemy.tscn::PackedScene::4323259538507227323::1701463928::0::1::::<><>::res://Scripts/enemy.gd<>uid://d2gf6whja8eih::::res://Characters/Characters/fbx/Barbarian-4eaf6d944e22669fe0ee9efb4af7a6c8_barbarian_texture.png
+Enemy_Spawner.tscn::PackedScene::4264052760808760373::1701462817::0::1::::<><>::res://EnemySpawner.gd
+Main.tscn::PackedScene::7505726982070645345::1701463119::0::1::::<><>::res://Scripts/main.gd<>uid://y1srvkpor610
+Player.tscn::PackedScene::1739330452423853137::1701463047::0::1::::<><>::res://Scripts/Player.gd<>uid://b62nfkrricn6h
+States.tscn::PackedScene::7526725186205868018::1701464016::0::1::::<><>::
+test_surface.tscn::PackedScene::1655118189188058750::1701283240::0::1::::<><>::uid://dqp3c3eq8mmxi
+UI.tscn::PackedScene::8024195301300578314::1701462817::0::1::::<><>::
+World.tscn::PackedScene::5689466571362978777::1701462817::0::1::::<><>::uid://bd2t333hgqaa3
+::res://Scripts/::1701463904
+enemy.gd::GDScript::-1::1701460966::0::1::::<>CharacterBody3D<>::
+Label.gd::GDScript::-1::1701463898::0::1::::<>Label<>::
+main.gd::GDScript::-1::1701463180::0::1::::<>Node<>::
+Node3D.gd::GDScript::-1::1701268913::0::1::::<>Node3D<>::
+Player.gd::GDScript::-1::1701463898::0::1::::<>CharacterBody3D<>::
+State.gd::GDScript::-1::1701463898::0::1::::State<>Node<>::

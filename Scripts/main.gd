@@ -1,11 +1,23 @@
 extends Node
 
+@onready var enemy_scene = preload("res://Scenes/Enemy.tscn")
+@onready var spawned_enemies = $EnemySpawner
 
-# Called when the node enters the scene tree for the first time.
 func _ready():
 	pass # Replace with function body.
 
 
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
-#	$Control/Label.text = str($Player.axis)
+
+func _physics_process(_delta):
+	pass
+	
+
+func spawn_enemy(_delta):
+	
+	var enemy = enemy_scene.instantiate()
+	spawned_enemies.add_child(enemy)
+	
+
+
+func _on_timer_timeout():
+	pass # Replace with function body.

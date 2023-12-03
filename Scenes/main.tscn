@@ -1,15 +1,25 @@
-[gd_scene load_steps=5 format=3 uid="uid://de63hyf6lx674"]
+[gd_scene load_steps=7 format=3 uid="uid://de63hyf6lx674"]
 
-[ext_resource type="Script" path="res://Scripts/main.gd" id="1_o2a37"]
-[ext_resource type="PackedScene" uid="uid://y1srvkpor610" path="res://Scenes/Player.tscn" id="1_wxlrr"]
-[ext_resource type="PackedScene" uid="uid://cncaxh1b5nsmr" path="res://Scenes/World.tscn" id="2_y8bsn"]
-[ext_resource type="PackedScene" uid="uid://dmk8la33cqvig" path="res://Scenes/UI.tscn" id="3_lrufy"]
+[ext_resource type="Script" path="res://Scripts/Main.gd" id="1_kknyd"]
+[ext_resource type="PackedScene" uid="uid://y1srvkpor610" path="res://Scenes/Player.tscn" id="2_f40bh"]
+[ext_resource type="PackedScene" uid="uid://cncaxh1b5nsmr" path="res://Scenes/World.tscn" id="3_tx100"]
+[ext_resource type="PackedScene" uid="uid://dmk8la33cqvig" path="res://Scenes/UI.tscn" id="4_hkm3c"]
+[ext_resource type="PackedScene" uid="uid://b2uhpnvi5csf0" path="res://Scenes/Enemy.tscn" id="5_axny1"]
+[ext_resource type="PackedScene" uid="uid://b10slc3q8hg0d" path="res://Scenes/Enemy_Spawner.tscn" id="6_4iux5"]
 
 [node name="Main" type="Node"]
-script = ExtResource("1_o2a37")
+script = ExtResource("1_kknyd")
 
-[node name="Player" parent="." instance=ExtResource("1_wxlrr")]
+[node name="Player" parent="." groups=["Players"] instance=ExtResource("2_f40bh")]
+MAX_SPEED = 15
+ACCELERATION = 5
 
-[node name="World" parent="." instance=ExtResource("2_y8bsn")]
+[node name="World" parent="." instance=ExtResource("3_tx100")]
 
-[node name="Control" parent="." instance=ExtResource("3_lrufy")]
+[node name="Control" parent="." instance=ExtResource("4_hkm3c")]
+
+[node name="Enemy" parent="." instance=ExtResource("5_axny1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -38.6613)
+player_path = NodePath("../Player")
+
+[node name="EnemySpawner" parent="." instance=ExtResource("6_4iux5")]

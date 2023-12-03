@@ -1,12 +1,13 @@
-res://Scenes/Player.tscn
+res://Scenes/Enemy.tscn
+res://Scenes/enemy.gd
+res://Scenes/Label.gd
 res://Scripts/Player.gd
-<<<<<<< HEAD
-res://Scenes/main.tscn
-res://Scenes/World.tscn
-res://Scenes/test_surface.tscn
-res://Scenes/UI.tscn
-res://Scripts/main.gd
-=======
-res://Scenes/Player_Animations.gd
-
->>>>>>> 0ccc804db4a4883a8ef446c0424bb2828b96455a
+res://EnemySpawner.gd
+res://Scripts/State.gd
+res://Scenes/States.tscn
+res://Scripts/enemy.gd
+res://Scripts/Label.gd
+res://Scripts/Main.gd
+res://Scripts/Node3D.gd
+res://Scenes/Main.tscn
+res://Scenes/Enemy_Spawner.tscn

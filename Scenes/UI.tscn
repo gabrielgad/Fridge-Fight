@@ -1,6 +1,4 @@
-[gd_scene load_steps=4 format=3 uid="uid://dmk8la33cqvig"]
-
-[ext_resource type="Script" path="res://Scenes/Label.gd" id="1_rr2ji"]
+[gd_scene load_steps=3 format=3 uid="uid://dmk8la33cqvig"]
 
 [sub_resource type="Theme" id="Theme_07g7a"]
 
@@ -28,4 +26,3 @@ theme_override_colors/font_color = Color(0, 0, 0, 1)
 label_settings = SubResource("LabelSettings_n0hcr")
 horizontal_alignment = 1
 vertical_alignment = 1
-script = ExtResource("1_rr2ji")
